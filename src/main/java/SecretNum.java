@@ -10,7 +10,7 @@ public class SecretNum {
 
 
 
-
+        int secretNum = 10;
 
 
 
