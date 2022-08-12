@@ -10,10 +10,11 @@ public class WhatToWear {
 //         e.g. if it is both "rainy" and less than 12 degrees, output "wear a waterproof winter coat"
 
         System.out.println("how does the weather seem? (e.g. rainy, sunny, cloudy, snowy)");
-        Scanner reader = new Scanner(System.in);
-        String weatherInfo = reader.nextLine();
+        Scanner weatherReader = new Scanner(System.in);
+        String weatherInfo = weatherReader.nextLine();
         System.out.println("what is the average temperature today?");
-        int temperature = reader.nextInt();
+        Scanner tempReader = new Scanner(System.in);
+        int temperature = tempReader.nextInt();
 
         if (weatherInfo.equals("rainy") && temperature<=12){
             System.out.println("wear a waterproof winter coat.");
