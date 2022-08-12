@@ -31,11 +31,26 @@ public class WhatToWear {
             System.out.println("wear summer clothes, it's hot outside.");
         }
 
-
-
+        else if (weatherInfo.equals("cloudy") && temperature<=12){
+            System.out.println("wear a winter coat and take an umbrella.");
+        }
+        else if (weatherInfo.equals("cloudy") && temperature<=20){
+            System.out.println("wear a warm coat and take an umbrella.");
+        }
+        else if (weatherInfo.equals("cloudy") && temperature>21){
+            System.out.println("wear summer clothes and take an umbrella.");
+        }
+        else if (weatherInfo.equals("snowy") && temperature<=0){
+            System.out.println("wear a waterproof thick winter coat.");
+        }
+        else if (weatherInfo.equals("snowy") && temperature<5){
+            System.out.println("wear a winter coat, but the snow might melt soon.");
+        }
+        else if (weatherInfo.equals("snowy") && temperature>5){
+            System.out.println("are you sure it's really snowing outside?");
+        }
         else {
             System.out.println("you have to decide what to wear yourself");
         }
     }
-
     }
