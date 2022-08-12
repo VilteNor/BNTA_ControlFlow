@@ -34,7 +34,7 @@ public class WhatToWear {
 
 
         else {
-            System.out.println("your guess is too high");
+            System.out.println("you have to decide what to wear yourself");
         }
     }
 
